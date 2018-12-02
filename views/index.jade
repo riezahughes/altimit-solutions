@@ -1,0 +1,30 @@
+extends layout
+block content
+    script.
+      //var bkg = document.getElementById("audio-title");
+      //bkg.load();
+      //setTimeout(function(){
+      //bkg.play();
+      //}, 0);
+    script(type="text/javascript" src="/javascripts/toggle.js")
+    //h1= title
+    //p Welcome to #{title}
+    div#login-container
+      div.formcontainer
+        img(src="/images/altimit-logo.png")
+        br
+        form#login-form(action="#" novalidate)
+          div#form-input
+            input(type="text", name="username", placeholder="Username" required)
+            br
+            input(type="password", name="password", placeholder="Password" required)
+            br
+          div#control-buttons
+            div#login-buttons
+              button#login-button(onclick="toggle(); return false;") connect: //
+                span(class="flash")  _
+              br
+              button#connect-button.disabled(onclick="loading(); return false;" disabled="disabled") login
+                span(class="flash")  _
+              br
+              button.small-button(onclick="toggle(); return false;") back

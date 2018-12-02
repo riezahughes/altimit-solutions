@@ -1,0 +1,43 @@
+doctype html
+html
+  head
+    link(rel='icon', href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA0ppVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6N0I5RjY5RTNGNDA4MTFFNzgyMTU4QkQyQUNBRTMwNDYiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6N0I5RjY5RTJGNDA4MTFFNzgyMTU4QkQyQUNBRTMwNDYiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDo4YWVlMDBhMy1mMmZkLTExZTctYTU1MS1hN2RjN2RmOTcyNjUiIHN0UmVmOmRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDo4YWVlMDBhMy1mMmZkLTExZTctYTU1MS1hN2RjN2RmOTcyNjUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+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' type='image/x-icon')
+    script(src="/javascripts/particles.js")
+    script(src="/javascripts/loading.js")
+    script.
+      var trackToggle = 0;
+      //particlesJS.load(@dom-id, @path-json, @callback (optional));
+      particlesJS.load('particles-js', '/javascripts/particles.json', function() {
+      console.log('callback - particles.js config loaded');
+      });
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    audio#audio-title(oncanplaythrough="whiteout();" autobuffer loop)
+      source(src="sound/altimit-title-screen.mp3" type="audio/mpeg")
+    audio#audio-select(preload="auto")
+      source(src="sound/altimit-select.mp3" type="audio/mpeg")
+    audio#audio-confirm(preload="auto")
+      source(src="sound/altimit-confirm.mp3" type="audio/mpeg")
+    audio#audio-cancel(preload="auto")
+      source(src="sound/altimit-cancel.mp3" type="audio/mpeg")
+    div#blackout
+      div.toc-container
+        h3 Thank you for choosing Altimit OS
+        p On behalf of CC Corporation i would like to personally thank you for installing Altimit Operating System. We have spent the better part of the last decade working hard to bring you the most versatile and secure system around the globe. We take great pride in our work, and i can only hope that you benifit from our product now and in the future. Please take a moment to read over our terms and conditions before you start up for the first time.
+        p If you have any questions or queries, please send in a ticket to our support team and we will work hard to get back to you within 24 hours.
+        h5 Terms and Conditions
+        div.tandc
+          p Lorem Ipsum
+        button(type="submit" onClick="whiteout(); return false;")
+    div#whiteout
+    div#loading-overlay
+      div
+        img.loading-image(src="/images/altimit-loading-animation.png")
+        br
+        span ...establishing secure connection 
+          span.flash _
+    div#particles-js
+    block content
+    script.
+      document.getElementById("audio-title").volume = 1;
